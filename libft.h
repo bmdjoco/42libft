@@ -6,7 +6,7 @@
 /*   By: bdjoco <bdjoco@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/02 11:58:12 by bdjoco            #+#    #+#             */
-/*   Updated: 2025/06/23 16:00:49 by bdjoco           ###   ########.fr       */
+/*   Updated: 2025/06/23 16:19:50 by bdjoco           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,6 +41,7 @@ int		ft_strncmp(const char *s1, const char *s2, size_t n);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 
 char	*ft_itoa(int nbr);
+char	*get_next_line(int fd);
 char	*ft_strdup(const char *src);
 char	**ft_split(const char *s, char c);
 char	*ft_strchr(char *str, int to_find);
