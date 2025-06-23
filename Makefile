@@ -6,7 +6,7 @@
 #    By: bdjoco <bdjoco@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/02 13:23:14 by bdjoco            #+#    #+#              #
-#    Updated: 2025/06/19 17:41:23 by bdjoco           ###   ########.fr        #
+#    Updated: 2025/06/23 16:03:31 by bdjoco           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -45,7 +45,8 @@ SRC = ft_isalpha.c \
 	ft_putchar_fd.c \
 	ft_putstr_fd.c \
 	ft_putendl_fd.c \
-	ft_putnbr_fd.c
+	ft_putnbr_fd.c \
+	get_next_line.c
 
 SCR_BONUS = ft_lstnew_bonus.c \
 	ft_lstadd_front_bonus.c \

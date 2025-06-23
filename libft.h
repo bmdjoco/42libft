@@ -6,7 +6,7 @@
 /*   By: bdjoco <bdjoco@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/02 11:58:12 by bdjoco            #+#    #+#             */
-/*   Updated: 2025/05/07 12:34:07 by bdjoco           ###   ########.fr       */
+/*   Updated: 2025/06/23 16:00:49 by bdjoco           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,10 @@
 # include <unistd.h>
 # include <ctype.h>
 # include <string.h>
+
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 15
+# endif
 
 typedef struct s_list
 {
